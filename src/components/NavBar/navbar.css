@@ -19,6 +19,7 @@
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;
+  font-size: 12px;
 }
 .desktopMenuListItem:hover {
   color: #7ed957;
