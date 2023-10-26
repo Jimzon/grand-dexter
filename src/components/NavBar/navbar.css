@@ -20,3 +20,8 @@
   margin: 1rem;
   cursor: pointer;
 }
+.desktopMenuListItem:hover {
+  color: #7ed957;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #7ed957;
+}
