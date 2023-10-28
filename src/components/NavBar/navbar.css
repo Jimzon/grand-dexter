@@ -20,10 +20,10 @@
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
 }
 .desktopMenuListItem:hover {
   color: #7ed957;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.4rem;
   border-bottom: 2px solid #7ed957;
 }

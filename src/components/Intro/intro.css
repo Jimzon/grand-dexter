@@ -9,7 +9,7 @@
 .introContent {
   height: 100vh;
   weight: 100vw;
-  padding: 2rem;
+  padding: 0 2rem;
   font-size: 3rem;
   font-weight: 700;
   display: flex;
@@ -17,4 +17,30 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.introText {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.introName {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.dexter {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #7ed957;
+}
+.introMain {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
 }

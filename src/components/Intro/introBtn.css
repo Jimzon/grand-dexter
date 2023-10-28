@@ -1,0 +1,21 @@
+.introBtnDiv {
+  display: flex;
+  gap: 1rem;
+}
+.btnPortfolio {
+  background: transparent;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #7ed957;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+}
+.btnContact {
+  background: #7ed957;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
