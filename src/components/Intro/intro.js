@@ -1,12 +1,13 @@
 import React from "react";
 import "./intro.css";
 import "./introBtn.css";
-import { Link } from "react-scroll";
 import IntroBtn from "./introBtn";
+import Navbar from "../NavBar/navbar";
 
 const Intro = () => {
   return (
     <section id="intro">
+      <Navbar />
       <div className="introContent">
         <span className="introText">You are now entering in my domain</span>
         <span className="introName">
