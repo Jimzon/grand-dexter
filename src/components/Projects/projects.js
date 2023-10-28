@@ -3,9 +3,6 @@ import "./projects.css";
 import Portfolio1 from "../../assets/project1.png";
 import Portfolio2 from "../../assets/project2.webp";
 import Portfolio3 from "../../assets/project3.jpg";
-import Portfolio4 from "../../assets/portfolio-4.png";
-import Portfolio5 from "../../assets/portfolio-5.png";
-import Portfolio6 from "../../assets/portfolio-6.png";
 
 const Projects = () => {
   return (
@@ -16,12 +13,18 @@ const Projects = () => {
         rhoncus diam et eleifend. Maecenas mattis.
       </span>
       <div className="projectsImgs">
-        <img className="projectsImg" src={Portfolio1} alt="" />
-        <img className="projectsImg" src={Portfolio2} alt="" />
-        <img className="projectsImg" src={Portfolio3} alt="" />
-        {/* <img className="projectsImg" src={Portfolio4} alt="" />
-        <img className="projectsImg" src={Portfolio5} alt="" />
-        <img className="projectsImg" src={Portfolio6} alt="" /> */}
+        <div className="projectDiv">
+          <img className="projectsImg" src={Portfolio1} alt="projects" />
+          <span>Ecommerce</span>
+        </div>
+        <div className="projectDiv">
+          <img className="projectsImg" src={Portfolio2} alt="projects" />
+          <span>Accounting</span>
+        </div>
+        <div className="projectDiv">
+          <img className="projectsImg" src={Portfolio3} alt="projects" />
+          <span>Mobile App</span>
+        </div>
       </div>
       <button className="projectBtn">See More</button>
     </section>

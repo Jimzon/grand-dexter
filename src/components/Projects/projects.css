@@ -2,13 +2,13 @@
   margin: 0 auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 60rem;
+  max-width: 75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 .projectsTitle {
   margin: 1rem 0;
@@ -19,20 +19,29 @@
   font-size: 1rem;
   max-width: 45rem;
 }
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 .projectsImgs {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   width: 100vw;
-  max-width: 65rem;
-  gap: 2rem;
+  /* max-width: 65rem; */
+  gap: 4rem;
   padding-top: 2rem;
 }
 .projectsImg {
   object-fit: cover;
   height: 20rem;
   margin: 0.5rem;
+  max-width: 20rem;
+  border-radius: 0.5rem;
 }
 .projectBtn {
   margin: 3rem 0;
