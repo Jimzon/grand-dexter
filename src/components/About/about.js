@@ -15,7 +15,12 @@ const About = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
           feugiat rhoncus diam et eleifend. Maecenas mattis.
         </p>
-        <a href="" />
+        <div className="resumeDiv">
+          <p className="resume">View my</p>
+          <a href="" className="dexter">
+            <span>Resume</span>
+          </a>
+        </div>
       </div>
       <img className="aboutImg" src={AboutPic} alt="" />
     </section>

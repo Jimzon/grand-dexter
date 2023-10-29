@@ -1,18 +1,18 @@
 #about {
   height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 75rem;
+  max-width: 70rem;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .aboutImg {
   object-fit: cover;
-  max-width: 56rem;
-  max-height: 20rem;
+  max-width: 52rem;
+  max-height: 26rem;
 }
 .aboutContent {
   height: 100vh;
@@ -35,6 +35,20 @@
   font-weight: 300;
   letter-spacing: 1px;
   width: 30rem;
+}
+.resume {
+  font-size: large;
+  font-weight: 300;
+}
+.dexter {
+  color: #7ed957;
+  text-decoration: none;
+  border-bottom: 1px solid #7ed957;
+  margin-left: 0.5rem;
+}
+.resumeDiv {
+  display: flex;
+  align-items: center;
 }
 .btn {
   background: white;
