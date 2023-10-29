@@ -11,7 +11,7 @@ const Intro = () => {
       <div className="introContent">
         <span className="introText">You are now entering in my domain</span>
         <span className="introName">
-          I am Grand <span className="dexter">Dexter Echalico...</span>
+          I am Grand <span className="granDexter">Dexter Echalico...</span>
         </span>
         <h1 className="introMain">Welcome to my World!</h1>
         <IntroBtn />

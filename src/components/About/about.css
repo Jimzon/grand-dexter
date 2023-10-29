@@ -1,10 +1,10 @@
 #about {
   height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 70rem;
+  /* max-width: 70rem; */
   margin: 0 auto;
   overflow: hidden;
-  /* position: relative; */
+  background: rgb(10, 10, 10);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,8 @@
   text-decoration: none;
   border-bottom: 1px solid #7ed957;
   margin-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .resumeDiv {
   display: flex;
