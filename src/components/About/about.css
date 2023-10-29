@@ -9,9 +9,13 @@
   align-items: center;
   justify-content: center;
 }
+.aboutImgDiv {
+  max-width: 44rem;
+  padding-right: 2.5rem;
+}
 .aboutImg {
   object-fit: cover;
-  max-width: 52rem;
+  /* max-width: 44rem; */
   max-height: 26rem;
 }
 .aboutContent {

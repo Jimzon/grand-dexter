@@ -22,7 +22,9 @@ const About = () => {
           </a>
         </div>
       </div>
-      <img className="aboutImg" src={AboutPic} alt="" />
+      <div className="aboutImgDiv">
+        <img className="aboutImg" src={AboutPic} alt="" />
+      </div>
     </section>
   );
 };
