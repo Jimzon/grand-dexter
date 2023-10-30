@@ -3,7 +3,10 @@
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
-  background: rgb(10, 10, 10);
+  background-image: url("../../assets/nature.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
