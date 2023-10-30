@@ -3,11 +3,23 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section id="stacks">
-      <div className="stacksContent">
-        <h2 className="stacksTitle">My Stacks</h2>
+    <section id="contact">
+      <div className="contactContent">
+        <h2 className="contactTitle">About Me</h2>
+        <p className="contactPara">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          feugiat rhoncus diam et eleifend. Maecenas mattis.
+        </p>
+        <div className="resumeDiv">
+          <p className="resume">View my</p>
+          <a href="" className="dexter">
+            <span>Resume</span>
+          </a>
+        </div>
       </div>
-      <div className="stacksIcon"></div>
+      <div className="aboutImgDiv">
+        <img className="aboutImg" src="" alt="" />
+      </div>
     </section>
   );
 };
