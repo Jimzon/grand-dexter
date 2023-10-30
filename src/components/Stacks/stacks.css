@@ -5,21 +5,19 @@
   overflow: hidden;
   background: rgb(10, 10, 10);
   flex-direction: column;
-  text-align: end;
 }
 .stacksContent {
   max-width: 75rem;
   margin: 2rem auto;
-  align-items: flex-end;
-  justify-content: space-between;
+  text-align: center;
 }
 .stacksTitle {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .stacksIcon {
-  max-width: 75rem;
-  /* margin: 0 auto;
-  /* display: flex; */ */
+  max-width: 76rem;
+  margin: 0 auto;
+  display: flex;
   flex-wrap: wrap;
 }
 .stacksIcon > i {
@@ -27,7 +25,7 @@
   margin: 10px 20px;
   border: 2px solid #7ed957;
   border-radius: 50%;
-  font-size: 50px;
+  font-size: 45px;
   color: #7ed957;
   cursor: pointer;
 }

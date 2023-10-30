@@ -5,7 +5,6 @@ const Stacks = () => {
   return (
     <section id="stacks">
       <div className="stacksContent">
-        <div></div>
         <h2 className="stacksTitle">My Stacks</h2>
       </div>
       <div className="stacksIcon">
@@ -27,6 +26,8 @@ const Stacks = () => {
         <i class="devicon-php-plain"></i>
         <i class="devicon-mongodb-plain"></i>
         <i class="devicon-express-original"></i>
+        <i class="devicon-nodejs-plain"></i>
+        <i class="devicon-angularjs-plain"></i>
       </div>
     </section>
   );
