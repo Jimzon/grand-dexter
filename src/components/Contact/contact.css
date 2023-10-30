@@ -25,6 +25,7 @@
 }
 .contact {
   z-index: 2;
+  margin: 6rem auto;
 }
 .contactPageTitle {
   font-size: 3rem;
