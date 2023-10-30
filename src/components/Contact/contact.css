@@ -1,36 +1,94 @@
-#contact {
-  height: calc(100vh - 4rem);
+#contactPage {
+  min-height: calc(100vh - 4rem);
   width: 100vw;
+  /* max-width: 60rem; */
   margin: 0 auto;
-  overflow: hidden;
-  background-image: url("../../assets/nature.jpg");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/nature1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+#contactPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.contact {
+  z-index: 2;
+}
+.contactPageTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.clientDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.clientImgs {
+  margin: 1rem 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+.clientImg {
+  object-fit: cover;
+  width: 23%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 0.25rem;
 }
 
-.contactContent {
-  height: 100vh;
-  weight: 100vw;
-  padding: 2rem;
-  font-size: 3rem;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
-  width: 50rem;
-}
-.contactTitle {
-  margin: 1rem 0;
-  font-size: 2.5rem;
-}
-.contactPara {
+.contactDesc {
+  padding: 1rem;
   font-size: medium;
   font-weight: 300;
-  letter-spacing: 1px;
-  width: 30rem;
+}
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 3.5rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
 }
