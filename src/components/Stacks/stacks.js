@@ -18,6 +18,7 @@ const Stacks = () => {
         <i class="devicon-html5-plain"></i>
         <i class="devicon-tailwindcss-plain"></i>
         <i class="devicon-sass-original"></i>
+        <i class="devicon-amazonwebservices-original"></i>
         <i class="devicon-bootstrap-plain"></i>
         <i class="devicon-python-plain"></i>
         <i class="devicon-wordpress-plain"></i>
@@ -28,6 +29,9 @@ const Stacks = () => {
         <i class="devicon-express-original"></i>
         <i class="devicon-nodejs-plain"></i>
         <i class="devicon-angularjs-plain"></i>
+        <i class="devicon-android-plain"></i>
+        <i class="devicon-apple-original"></i>
+        <i class="devicon-c-plain"></i>
       </div>
     </section>
   );
