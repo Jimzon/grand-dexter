@@ -5,6 +5,7 @@ const Stacks = () => {
   return (
     <section id="stacks">
       <div className="stacksContent">
+        <div></div>
         <h2 className="stacksTitle">My Stacks</h2>
       </div>
       <div className="stacksIcon">
